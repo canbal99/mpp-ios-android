@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360703AD2518A1E2009058FF /* actual.kt in Resources */ = {isa = PBXBuildFile; fileRef = 360703AC2518A1E2009058FF /* actual.kt */; };
+		36FCE7C02514B8AE00EE2019 /* common.kt in Resources */ = {isa = PBXBuildFile; fileRef = 36FCE7BF2514B8AE00EE2019 /* common.kt */; };
+		36FCE7DA2514D83100EE2019 /* newfile.kt in Resources */ = {isa = PBXBuildFile; fileRef = 36FCE7D92514D83100EE2019 /* newfile.kt */; };
 		47729E0622F447C800B9B36B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47729E0522F447C800B9B36B /* AppDelegate.swift */; };
 		47729E0822F447C800B9B36B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47729E0722F447C800B9B36B /* ViewController.swift */; };
 		47729E0B22F447C800B9B36B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47729E0922F447C800B9B36B /* Main.storyboard */; };
@@ -50,6 +53,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		360703AC2518A1E2009058FF /* actual.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = actual.kt; path = ../../SharedCode/src/iosMain/kotlin/actual.kt; sourceTree = "<group>"; };
+		36FCE7BF2514B8AE00EE2019 /* common.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = common.kt; path = ../../SharedCode/src/commonMain/kotlin/common.kt; sourceTree = "<group>"; };
+		36FCE7D92514D83100EE2019 /* newfile.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = newfile.kt; path = ../../SharedCode/src/commonMain/kotlin/newfile.kt; sourceTree = "<group>"; };
 		47729E0222F447C800B9B36B /* KotlinIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47729E0522F447C800B9B36B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47729E0722F447C800B9B36B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				47729E6D22F4806B00B9B36B /* SharedCode.framework */,
+				36FCE7BF2514B8AE00EE2019 /* common.kt */,
+				36FCE7D92514D83100EE2019 /* newfile.kt */,
+				360703AC2518A1E2009058FF /* actual.kt */,
 				47729E0422F447C800B9B36B /* KotlinIOS */,
 				47729E1922F447CA00B9B36B /* KotlinIOSTests */,
 				47729E2422F447CA00B9B36B /* KotlinIOSUITests */,
@@ -250,9 +259,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36FCE7DA2514D83100EE2019 /* newfile.kt in Resources */,
 				47729E1022F447CA00B9B36B /* LaunchScreen.storyboard in Resources */,
+				360703AD2518A1E2009058FF /* actual.kt in Resources */,
 				47729E0D22F447CA00B9B36B /* Assets.xcassets in Resources */,
 				47729E0B22F447C800B9B36B /* Main.storyboard in Resources */,
+				36FCE7C02514B8AE00EE2019 /* common.kt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,13 +486,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YPRTA6YWYM;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../SharedCode/build/xcode-frameworks";
 				INFOPLIST_FILE = KotlinIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.handson.mpp.mobile.KotlinIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = de.estos.apps.handson.mpp.mobile.KotlinIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -492,13 +505,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YPRTA6YWYM;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../SharedCode/build/xcode-frameworks";
 				INFOPLIST_FILE = KotlinIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.handson.mpp.mobile.KotlinIOS;
+				PRODUCT_BUNDLE_IDENTIFIER = de.estos.apps.handson.mpp.mobile.KotlinIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
